@@ -30,4 +30,4 @@ create_sum_variable(): creates a new variable that is the sum of two existing va
 REFERENCES :
 
 
-Wang Y, Day R. An R package for simulation experiments evaluating clinical trial designs. Summit Transl Bioinform. 2010 Mar 1;2010:61-5. PMID: 21347151; PMCID: PMC3041540.
+1. Wang Y, Day R. An R package for simulation experiments evaluating clinical trial designs. Summit Transl Bioinform. 2010 Mar 1;2010:61-5. PMID: 21347151; PMCID: PMC3041540.
