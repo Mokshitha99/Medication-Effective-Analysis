@@ -79,5 +79,28 @@ scatter_plot <- function(x, y) {
 create_sum_variable <- function(x, y) {
   x + y
 }
+# Define S3 class constructor function for patient data
+patientData <- function(age, gender, systolic_bp, diastolic_bp, cholesterol) {
+  data <- list(age = age,
+               gender = gender,
+               systolic_bp = systolic_bp,
+               diastolic_bp = diastolic_bp,
+               cholesterol = cholesterol)
+  class(data) <- "patientData"
+  return(data)
+}
+
+# Define S3 class method to calculate change in blood pressure with benazepril
+benazeprilBPChange <- function(patient, dose) {
+  # Calculate change in systolic and diastolic blood pressure with benazepril
+  # Method code goes here
+}
+
+# Create instance of patient data for a hypothetical patient taking benazepril
+myPatient <- patientData(age = 50, gender = "male", systolic_bp = 140, diastolic_bp = 90, cholesterol = 200)
+
+# Call S3 class method to calculate change in blood pressure with benazepril
+myBPChange <- benazeprilBPChange(myPatient, dose = 10)
+
 
 
