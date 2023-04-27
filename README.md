@@ -22,3 +22,12 @@ correlation_coefficient():  computes the correlation coefficient between two vec
 multiple_regression_analysis(): performs a multiple linear regression analysis on the specified data and formula.
 
 create_sum_variable(): creates a new variable that is the sum of two existing variables.
+
+
+
+
+
+REFERENCES :
+
+
+Wang Y, Day R. An R package for simulation experiments evaluating clinical trial designs. Summit Transl Bioinform. 2010 Mar 1;2010:61-5. PMID: 21347151; PMCID: PMC3041540.
