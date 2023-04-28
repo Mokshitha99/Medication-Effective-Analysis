@@ -24,6 +24,10 @@ multiple_regression_analysis(): performs a multiple linear regression analysis o
 create_sum_variable(): creates a new variable that is the sum of two existing variables.
 
 
+BLOG LINK :
+
+[Medication Analysis Package Blog Link](https://mokshitha99.blogspot.com/2023/04/medication-analysis-package.html)
+
 
 
 
